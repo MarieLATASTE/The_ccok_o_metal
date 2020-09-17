@@ -2,13 +2,23 @@
 @import url(https://fr.allfont.net/allfont.css?fonts=poultrygeist);
 
 body{
-	background:#f1f1f1;
+	background-color: #ffe5b4;
+	display: flex;
+	flex-direction: column;
 }
+
 h1{
 	  font-family: 'Iron Maiden', arial;
-	  color: #ff1919;
+	  color: #bb0000;
 }
-h2, h3{
+h2, h3, li, p{
 	  font-family: 'Poultrygeist', arial;
 
+}
+li{
+	font-style: 30px;
+}
+span{
+	font-weight: bold;
+	color: #960018;
 }
