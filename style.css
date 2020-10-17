@@ -1,19 +1,42 @@
 @import url(https://fr.allfont.net/allfont.css?fonts=iron-maiden);
-@import url(https://fr.allfont.net/allfont.css?fonts=poultrygeist);
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 
 body{
 	background-color: #ffe5b4;
 	display: flex;
 	flex-direction: column;
 }
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+img{
+	width: 400px;
+	height: 300px;
+	margin-top: 0;
+}
+.recipe{
+	display: inline-block;
+	flex-direction: row;
+}
 
+/*
+.col_gauche, .col_droite{
+	display: flex;
+	flex-direction: column;
+}	*/
+.ingredient{
+	display: flex;
+	flex-direction: column;
+}
 h1{
 	  font-family: 'Iron Maiden', arial;
 	  color: #bb0000;
 }
 h2, h3, li, p{
-	  font-family: 'Poultrygeist', arial;
-
+	  font-family: 'Piedra', cursive;
+	  letter-spacing: 2px;
 }
 li{
 	font-style: 30px;
@@ -21,4 +44,9 @@ li{
 span{
 	font-weight: bold;
 	color: #960018;
+}
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
